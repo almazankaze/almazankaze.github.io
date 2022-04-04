@@ -1,0 +1,37 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.75rem;
+  padding: 1.25rem;
+  color: #fff;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.main-nav .nav-links li {
+  padding: 0 1.25rem;
+}
+
+.main-nav .nav-social-icons li {
+  padding: 0 0.5rem;
+}
+
+.main-nav .nav-links li a {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.main-nav .nav-links li a:hover {
+  color: #afb8c1;
+}
