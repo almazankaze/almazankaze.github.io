@@ -28,12 +28,12 @@ const Navbar = () => {
         )}
       </div>
 
-      <div class="nav-logo">
+      <div className="nav-logo">
         <h1>John</h1>
         <h1 className="lastName">&nbsp;Almazan</h1>
       </div>
 
-      <ul class="nav-links">
+      <ul className="nav-links">
         <li>
           <a href="#Projects">Projects</a>
         </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <ul class="nav-social-icons">
+      <ul className="nav-social-icons">
         <li>
           <IconButton aria-label="linkedin">
             <LinkedInIcon

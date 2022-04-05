@@ -17,72 +17,56 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: var(--color-text);
+}
+
+section {
+  padding: 4em 0;
+}
+
 .app {
   width: 90%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
 }
 
+.btn {
+  text-transform: capitalize;
+  font-weight: bold;
+  background: var(--gradient-text);
+  color: #fff;
+  padding: 0.5em 0.75em;
+
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 1.125rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+
 .gradient__bg {
-  background: -moz-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
-
-  /* opera 11.10+ */
-  background: -o-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
-
-  /* ie 10+ */
-  background: -ms-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
-
-  /* global 92%+ browsers support */
-  background: radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
+  background-image: linear-gradient(
+    to right,
+    rgba(4, 12, 24, 1),
+    rgba(0, 40, 83, 1),
+    rgba(4, 12, 24, 1)
   );
 }
 
-.scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+.gradient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+@media screen and (max-width: 650px) {
+  .btn {
+    font-size: 0.938rem;
   }
 }

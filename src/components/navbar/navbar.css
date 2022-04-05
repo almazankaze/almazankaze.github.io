@@ -87,7 +87,7 @@ ul li a:hover {
     top: 0;
     left: 0;
     background: var(--color-footer);
-    width: 40%;
+    width: 60%;
     height: 100%;
     border-right: #ccc 1px solid;
     padding: 1.875rem;

@@ -10,8 +10,8 @@ const App = () => {
       <div className="gradient__bg">
         <Navbar />
         <Header />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
