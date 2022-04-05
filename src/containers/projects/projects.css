@@ -1,0 +1,29 @@
+.cards-container {
+  padding: 20px 2%;
+}
+
+.cards {
+  column-count: 3;
+  gap: 3rem;
+}
+
+@media (max-width: 1100px) {
+  .cards-container {
+    padding: 20px 8%;
+  }
+}
+
+@media (max-width: 991px) {
+  .cards {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 650px) {
+  .cards-container {
+    padding: 20px;
+  }
+  .cards {
+    column-count: 1;
+  }
+}

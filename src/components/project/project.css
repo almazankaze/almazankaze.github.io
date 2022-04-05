@@ -1,0 +1,57 @@
+.project-card {
+  border-radius: 10px;
+  background-color: var(--color-footer);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+  break-inside: avoid;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card-content h3 {
+  font-weight: 500;
+  padding: 0.5rem 0;
+  font-size: 1.75rem;
+}
+
+.card-content p {
+  font-size: 1.125rem;
+}
+
+.card-content hr {
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0;
+  background: #d0bb57;
+}
+
+.tech-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.card-links a {
+  min-width: 80px;
+  font-weight: bold;
+  padding: 0.5em 0.75em;
+  border-radius: 1rem;
+  background: var(--gradient-text);
+}
