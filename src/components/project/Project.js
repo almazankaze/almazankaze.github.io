@@ -15,8 +15,8 @@ const Project = () => {
           <p>2</p>
         </div>
         <div className="card-links">
-          <a href="#">Code</a>
-          <a href="#">Live</a>
+          <a href="#d">Code</a>
+          <a href="#c">Live</a>
         </div>
       </div>
     </div>

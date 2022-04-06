@@ -1,1 +1,20 @@
+.tech-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 3rem 0;
+}
 
+@media screen and (max-width: 650px) {
+  .tech-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-cols h2 {
+    font-size: 1.25rem;
+  }
+
+  .tech-cols p {
+    font-size: 0.875rem;
+  }
+}

@@ -14,6 +14,10 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <div className="main-nav">
       <div className="menu-btn">
@@ -35,19 +39,24 @@ const Navbar = () => {
 
       <ul className="nav-links">
         <li>
-          <a href="#Projects">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#Technologies">Technologies</a>
+          <a href="#technology">Technologies</a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a href="#about">About</a>
         </li>
       </ul>
 
       <ul className="nav-social-icons">
         <li>
-          <IconButton aria-label="linkedin">
+          <IconButton
+            aria-label="linkedin"
+            href="https://linkedin.com/in/john-almazan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedInIcon
               sx={{
                 fontSize: 28,
@@ -57,7 +66,12 @@ const Navbar = () => {
           </IconButton>
         </li>
         <li>
-          <IconButton aria-label="github">
+          <IconButton
+            aria-label="github"
+            href="https://github.com/almazankaze"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GitHubIcon
               sx={{
                 fontSize: 28,
@@ -81,19 +95,30 @@ const Navbar = () => {
       <div className={showMenu ? "mobile-nav-menu show" : "mobile-nav-menu"}>
         <ul className="mobile-nav-links">
           <li>
-            <a href="#Projects">Projects</a>
+            <a href="#projects" onClick={closeMenu}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#Technologies">Technologies</a>
+            <a href="#technology" onClick={closeMenu}>
+              Technologies
+            </a>
           </li>
           <li>
-            <a href="#About">About</a>
+            <a href="#about" onClick={closeMenu}>
+              About
+            </a>
           </li>
         </ul>
 
         <ul className="mobile-icon-links">
           <li>
-            <IconButton aria-label="linkedin">
+            <IconButton
+              aria-label="linkedin"
+              href="https://linkedin.com/in/john-almazan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedInIcon
                 sx={{
                   fontSize: 28,
@@ -103,7 +128,12 @@ const Navbar = () => {
             </IconButton>
           </li>
           <li>
-            <IconButton aria-label="github">
+            <IconButton
+              aria-label="github"
+              href="https://github.com/almazankaze"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GitHubIcon
                 sx={{
                   fontSize: 28,

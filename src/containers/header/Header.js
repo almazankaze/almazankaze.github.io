@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../../stuff/JohnResume.pdf";
 import "./header.css";
 
 const Header = () => {
@@ -13,9 +14,14 @@ const Header = () => {
           new. I also enjoy playing video games, keeping up with the latest
           tech, and drinking coffee.
         </p>
-        <button className="btn" type="button">
-          Learn More
-        </button>
+        <a
+          className="btn"
+          href={Resume}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get Resume
+        </a>
       </div>
       <div className="header-img"></div>
     </section>
