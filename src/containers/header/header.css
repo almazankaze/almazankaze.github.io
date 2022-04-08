@@ -78,3 +78,13 @@
     line-height: 24px;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .header-content {
+    text-align: center;
+  }
+
+  .header-content a {
+    align-self: center;
+  }
+}

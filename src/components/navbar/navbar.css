@@ -131,3 +131,9 @@ ul li a:hover {
     padding: 0 0.25rem;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .mobile-nav-menu .mobile-icon-links li {
+    padding: 0;
+  }
+}

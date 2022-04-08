@@ -1,4 +1,5 @@
 import React from "react";
+import myProjects from "../../stuff/myProjects";
 import { Project } from "../../components";
 import "./projects.css";
 
@@ -9,11 +10,9 @@ const Projects = () => {
       <h2 className="section-title">Projects</h2>
       <div className="cards-container">
         <div className="cards">
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
+          {myProjects.map((project) => (
+            <Project key={project.id} project={project} />
+          ))}
         </div>
       </div>
     </section>

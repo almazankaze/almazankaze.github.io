@@ -11,15 +11,13 @@
   .cards-container {
     padding: 20px 8%;
   }
-}
 
-@media (max-width: 991px) {
   .cards {
     column-count: 2;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .cards-container {
     padding: 20px;
   }
