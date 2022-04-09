@@ -7,7 +7,7 @@ const Technologies = () => {
       <hr className="section-divider"></hr>
       <h2 className="section-title">Technologies</h2>
       <p className="section-desc">
-        I've worked with a range a technologies in the web development world.
+        I've worked with a range of technologies in the web development world.
         From Back-end To Design
       </p>
       <div className="tech-cols">
