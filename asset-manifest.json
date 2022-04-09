@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/almazankaze.github.io/static/css/main.abcbc061.css",
+    "main.js": "/almazankaze.github.io/static/js/main.03f964e0.js",
+    "static/media/TeddyGame.PNG": "/almazankaze.github.io/static/media/TeddyGame.d0dc6244b1aba6e4f472.PNG",
+    "static/media/birthday.PNG": "/almazankaze.github.io/static/media/birthday.076f162509b164b02e2e.PNG",
+    "static/media/anisearch.PNG": "/almazankaze.github.io/static/media/anisearch.7214307f696c06201c27.PNG",
+    "static/media/gradetrack.png": "/almazankaze.github.io/static/media/gradetrack.6451015f39216c1ff27a.png",
+    "static/media/budget.PNG": "/almazankaze.github.io/static/media/budget.e90517db5b87e76a321b.PNG",
+    "static/media/pomodoro.PNG": "/almazankaze.github.io/static/media/pomodoro.507f175b3efe2244e193.PNG",
+    "static/media/JohnResume.pdf": "/almazankaze.github.io/static/media/JohnResume.acff311c5b9fdd06d715.pdf",
+    "index.html": "/almazankaze.github.io/index.html",
+    "main.abcbc061.css.map": "/almazankaze.github.io/static/css/main.abcbc061.css.map",
+    "main.03f964e0.js.map": "/almazankaze.github.io/static/js/main.03f964e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abcbc061.css",
+    "static/js/main.03f964e0.js"
+  ]
+}
