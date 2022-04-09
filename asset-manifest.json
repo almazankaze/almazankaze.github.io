@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.abcbc061.css",
-    "main.js": "/static/js/main.d6f13e01.js",
+    "main.js": "/static/js/main.3e8b6bd4.js",
     "static/media/TeddyGame.PNG": "/static/media/TeddyGame.d0dc6244b1aba6e4f472.PNG",
     "static/media/birthday.PNG": "/static/media/birthday.076f162509b164b02e2e.PNG",
     "static/media/anisearch.PNG": "/static/media/anisearch.7214307f696c06201c27.PNG",
@@ -11,10 +11,10 @@
     "static/media/JohnResume.pdf": "/static/media/JohnResume.acff311c5b9fdd06d715.pdf",
     "index.html": "/index.html",
     "main.abcbc061.css.map": "/static/css/main.abcbc061.css.map",
-    "main.d6f13e01.js.map": "/static/js/main.d6f13e01.js.map"
+    "main.3e8b6bd4.js.map": "/static/js/main.3e8b6bd4.js.map"
   },
   "entrypoints": [
     "static/css/main.abcbc061.css",
-    "static/js/main.d6f13e01.js"
+    "static/js/main.3e8b6bd4.js"
   ]
 }
