@@ -46,7 +46,7 @@ export const myProjects = [
     id: 5,
     title: "Birthday Board",
     img: Birthday,
-    projectLink: "",
+    projectLink: "https://ja-birthday-mern.com/",
     gitLink: "https://github.com/almazankaze/BirthdayWebsite",
     description:
       "User can create a page for a friend's birthday. Other friends can then go on there and wish him/her a happy birthday!",
