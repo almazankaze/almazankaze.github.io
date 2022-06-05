@@ -2,7 +2,7 @@ import TeddyGame from "../images/TeddyGame.PNG";
 import GradeTracker from "../images/gradetrack.png";
 import Ani from "../images/anisearch.PNG";
 import Pomo from "../images/pomodoro.PNG";
-import Budget from "../images/budget.PNG";
+import Poke from "../images/pokeClone.PNG";
 import Birthday from "../images/birthday.PNG";
 
 export const myProjects = [
@@ -17,12 +17,12 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Budget Tracker",
-    img: Budget,
-    projectLink: "https://almabudgetapp-45a33f.netlify.app/",
-    gitLink: "https://github.com/almazankaze/budgetTracker",
+    title: "Poke Clone",
+    img: Poke,
+    projectLink: "https://mypokeclone.netlify.app/",
+    gitLink: "https://github.com/almazankaze/PokeClone",
     description:
-      "Made an app to help me keep track of how much I am spending and commit to a budget.",
+      "Created a clone of the original Pokemon game to play when I am bored.",
   },
   {
     id: 3,
