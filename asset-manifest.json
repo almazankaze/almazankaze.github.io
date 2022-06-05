@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.abcbc061.css",
-    "main.js": "/static/js/main.3cc32989.js",
+    "main.js": "/static/js/main.f920bb71.js",
     "static/media/TeddyGame.PNG": "/static/media/TeddyGame.d0dc6244b1aba6e4f472.PNG",
     "static/media/birthday.PNG": "/static/media/birthday.076f162509b164b02e2e.PNG",
     "static/media/anisearch.PNG": "/static/media/anisearch.7214307f696c06201c27.PNG",
@@ -11,10 +11,10 @@
     "static/media/pokeClone.PNG": "/static/media/pokeClone.c41eed2498c96a3243e4.PNG",
     "index.html": "/index.html",
     "main.abcbc061.css.map": "/static/css/main.abcbc061.css.map",
-    "main.3cc32989.js.map": "/static/js/main.3cc32989.js.map"
+    "main.f920bb71.js.map": "/static/js/main.f920bb71.js.map"
   },
   "entrypoints": [
     "static/css/main.abcbc061.css",
-    "static/js/main.3cc32989.js"
+    "static/js/main.f920bb71.js"
   ]
 }
