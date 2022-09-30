@@ -7,6 +7,11 @@
   color: #fff;
 }
 
+ul li a {
+  color: unset;
+  text-decoration: none;
+}
+
 ul li a:hover {
   color: #afb8c1;
 }
