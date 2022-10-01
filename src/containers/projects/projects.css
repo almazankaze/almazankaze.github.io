@@ -1,26 +1,15 @@
-.cards-container {
-  padding: 20px 2%;
-}
-
 .cards {
   column-count: 3;
   gap: 3rem;
 }
 
-@media (max-width: 1100px) {
-  .cards-container {
-    padding: 20px 8%;
-  }
-
+@media (max-width: 1200px) {
   .cards {
     column-count: 2;
   }
 }
 
-@media (max-width: 700px) {
-  .cards-container {
-    padding: 20px;
-  }
+@media (max-width: 600px) {
   .cards {
     column-count: 1;
   }
