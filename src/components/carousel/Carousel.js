@@ -5,33 +5,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import "./carousel.css";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { Pagination } from "swiper";
 
 const Carousel = () => {
   return (
     <div className="timeline">
       <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        freeMode={true}
+        spaceBetween={20}
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        modules={[Pagination]}
         breakpoints={{
-          320: {
+          600: {
             slidesPerView: 2,
-            spaceBetween: 20,
           },
-          640: {
+          900: {
             slidesPerView: 3,
-            spaceBetween: 30,
+          },
+          1200: {
+            slidesPerView: 5,
           },
         }}
         className="mySwiper"
