@@ -89,14 +89,15 @@
 
   .main-nav .middle-nav {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: var(--color-card);
     width: 60%;
     height: 100%;
     border-right: #ccc 1px solid;
-    padding: 1.875rem;
+    padding: min(30vh, 5rem) 1.875rem;
+    z-index: 1000;
     transform: translateX(-600px);
     transition: transform 0.5s ease-in-out;
   }
