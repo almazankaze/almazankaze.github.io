@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import "./navbar.css";
 import SocialLinks from "./SocialLinks";
 
+import { useGlobalContext } from "../../context";
+
+import "./navbar.css";
+
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const openMenu = () => {
-    setShowMenu(true);
-  };
-
-  const closeMenu = () => {
-    setShowMenu(false);
-  };
+  const { setShowMenu, showMenu } = useGlobalContext();
 
   return (
     <div className="main-nav">
@@ -26,17 +21,17 @@ const Navbar = () => {
         <h1 className="sidebar-name">John</h1>
         <ul className="middle-nav-menu">
           <li className="nav-link">
-            <a href="#projects" onClick={closeMenu}>
+            <a href="#projects" onClick={() => setShowMenu(false)}>
               Projects
             </a>
           </li>
           <li className="nav-link">
-            <a href="#technology" onClick={closeMenu}>
+            <a href="#technology" onClick={() => setShowMenu(false)}>
               Technologies
             </a>
           </li>
           <li className="nav-link">
-            <a href="#about" onClick={closeMenu}>
+            <a href="#about" onClick={() => setShowMenu(false)}>
               About
             </a>
           </li>
@@ -54,13 +49,13 @@ const Navbar = () => {
         {showMenu ? (
           <CloseIcon
             className="menu-icon"
-            onClick={closeMenu}
+            onClick={() => setShowMenu(false)}
             titleAccess="close"
           />
         ) : (
           <MenuIcon
             className="menu-icon"
-            onClick={openMenu}
+            onClick={() => setShowMenu(true)}
             titleAccess="menu"
           />
         )}

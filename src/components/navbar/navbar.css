@@ -75,12 +75,8 @@
 @media (max-width: 900px) {
   .menu-btn {
     display: block;
-    transition: opacity 0.2s ease-in-out;
     cursor: pointer;
-  }
-
-  .menu-btn:hover {
-    opacity: 0.5;
+    z-index: 1000;
   }
 
   .lastName {
