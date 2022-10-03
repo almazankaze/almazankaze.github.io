@@ -1,6 +1,6 @@
 .cards {
   column-count: 3;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 @media (max-width: 1200px) {
@@ -9,8 +9,10 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .cards {
     column-count: 1;
+    padding: 1rem 0;
+    gap: 1rem;
   }
 }

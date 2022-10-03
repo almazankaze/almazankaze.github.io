@@ -1,9 +1,9 @@
 import TeddyGame from "../images/TeddyGame.PNG";
 import GradeTracker from "../images/gradetrack.png";
-import Ani from "../images/anisearch.PNG";
-import Pomo from "../images/pomodoro.PNG";
-import Poke from "../images/pokeClone.PNG";
-import Birthday from "../images/birthday.PNG";
+import Ani from "../images/anisearch.jpg";
+import Pomo from "../images/pomodoro.jpg";
+import Poke from "../images/pokeClone.jpg";
+import Birthday from "../images/birthday.jpg";
 
 export const myProjects = [
   {

@@ -29,7 +29,7 @@
 
 .card-content p {
   padding: 0 1.5rem;
-  min-height: 150px;
+  min-height: 120px;
 }
 
 .card-content hr {
@@ -55,10 +55,14 @@
   color: var(--white);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
+  .project-card {
+    max-width: 420px;
+    margin: 0 auto 2rem;
+  }
+
   .card-content p {
     padding: 0 1.5rem;
-    min-height: 120px;
   }
 }
 
@@ -72,5 +76,19 @@
 
   .card-content p {
     min-height: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .project-card {
+    width: 340px;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-card {
+    width: 100%;
+    margin: 0 0 1.5rem;
   }
 }
