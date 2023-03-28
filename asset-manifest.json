@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b0b88c3.css",
-    "main.js": "/static/js/main.04e9d1c9.js",
+    "main.css": "/static/css/main.7501a39e.css",
+    "main.js": "/static/js/main.a1f89e7c.js",
     "static/media/TeddyGame.PNG": "/static/media/TeddyGame.d0dc6244b1aba6e4f472.PNG",
+    "static/media/webtech.png": "/static/media/webtech.cda3f1655f1ab3d5d376.png",
     "static/media/gradetrack.png": "/static/media/gradetrack.6451015f39216c1ff27a.png",
     "static/media/birthday.jpg": "/static/media/birthday.e9083a528fb43ea438ba.jpg",
     "static/media/anisearch.jpg": "/static/media/anisearch.771e44cc90e0ce6d1da4.jpg",
@@ -10,11 +11,11 @@
     "static/media/pomodoro.jpg": "/static/media/pomodoro.1e971398c9a9821314be.jpg",
     "static/media/JohnResume.pdf": "/static/media/JohnResume.e851e6b2f5ebf5d95b60.pdf",
     "index.html": "/index.html",
-    "main.7b0b88c3.css.map": "/static/css/main.7b0b88c3.css.map",
-    "main.04e9d1c9.js.map": "/static/js/main.04e9d1c9.js.map"
+    "main.7501a39e.css.map": "/static/css/main.7501a39e.css.map",
+    "main.a1f89e7c.js.map": "/static/js/main.a1f89e7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b0b88c3.css",
-    "static/js/main.04e9d1c9.js"
+    "static/css/main.7501a39e.css",
+    "static/js/main.a1f89e7c.js"
   ]
 }
