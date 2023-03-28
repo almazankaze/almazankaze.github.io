@@ -4,6 +4,7 @@ import Ani from "../images/anisearch.jpg";
 import Pomo from "../images/pomodoro.jpg";
 import Poke from "../images/pokeClone.jpg";
 import Birthday from "../images/birthday.jpg";
+import WebTech from "../images/webtech.png";
 
 export const myProjects = [
   {
@@ -20,13 +21,13 @@ export const myProjects = [
     title: "Poke Clone",
     img: Poke,
     projectLink: "https://mypokeclone.netlify.app/",
-    gitLink: "https://github.com/almazankaze/PokeClone",
+    gitLink: "https://github.com/almazankaze/Pokemon_battle",
     description:
       "Created a clone of the original Pokemon game to play when I am bored.",
   },
   {
     id: 3,
-    title: "Anime Database",
+    title: "Anime Site",
     img: Ani,
     projectLink: "https://an1search.netlify.app/",
     gitLink: "https://github.com/almazankaze/animeWiki",
@@ -53,12 +54,20 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Pomodoro App",
+    title: "Pomodoro",
     img: Pomo,
     projectLink: "https://ja-my-pomo-app.netlify.app/",
     gitLink: "https://github.com/almazankaze/pomodoro/tree/main/pomo-app",
     description:
       "Inspired by the pomodoro technique, helps me breakup my work into chunks and complete it in a timely fashion.",
+  },
+  {
+    id: 7,
+    title: "Ecommerce Site",
+    img: WebTech,
+    projectLink: "https://ecommerce-learn-proj.netlify.app/",
+    gitLink: "https://github.com/almazankaze/techWeb",
+    description: "Simple ecommerce site that sells tech stuff.",
   },
 ];
 
