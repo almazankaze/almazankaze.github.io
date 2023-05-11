@@ -1,0 +1,21 @@
+.scroll-up {
+  position: fixed;
+  bottom: 6%;
+  right: 9%;
+  cursor: pointer;
+}
+
+.scroll-up .arrow {
+  display: block;
+  padding: 14px;
+  font-size: 1rem;
+  background: var(--color-main);
+  opacity: 0.2;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.scroll-up .arrow:hover {
+  transform: translateY(-8px);
+  opacity: 1;
+}

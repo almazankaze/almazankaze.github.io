@@ -6,14 +6,9 @@ const Header = () => {
   return (
     <section className="header-section" id="header">
       <div className="header-content">
-        <h1 className="gradient-text">Welcome to my personal portfolio</h1>
-        <p>
-          Hello! My name is John and thanks for taking the time to review what I
-          can do. Some stuff to know about me is that I love technology,
-          especially when I get to troubleshoot and potentially learn something
-          new. I also enjoy playing video games, keeping up with the latest
-          tech, and drinking coffee.
-        </p>
+        <h2>Hi There!</h2>
+        <h1 className="gradient-text">I am John Almazan</h1>
+        <h5>Thanks for taking the time to review what I can do.</h5>
         <a
           className="btn"
           href={Resume}

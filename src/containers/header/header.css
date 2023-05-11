@@ -1,22 +1,21 @@
 .header-section {
-  display: flex;
-  flex-direction: row;
+  height: 100%;
+  min-height: 90vh;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
 }
 
 .header-content {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-right: 5rem;
 }
 
 .header-content h1 {
   font-weight: 800;
-  font-size: 3.75rem;
-  letter-spacing: -0.04em;
-  text-transform: capitalize;
+  font-size: 3rem;
+  margin: 0.125em 0;
 }
 
 .header-content p {
@@ -27,6 +26,12 @@
 
 .header-content .btn {
   margin-top: 2rem;
+  transition: all 0.55s ease;
+}
+
+.header-content .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
 }
 
 .header-image {
