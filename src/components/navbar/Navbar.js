@@ -1,11 +1,11 @@
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import SocialLinks from "./SocialLinks";
 
 import { useGlobalContext } from "../../context";
 
 import "./navbar.css";
+import SocialIcons from "../social-icons/SocialIcons";
 
 const Navbar = () => {
   const { setShowMenu, showMenu } = useGlobalContext();
@@ -38,12 +38,12 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="mobile-social-links">
-            <SocialLinks />
+            <SocialIcons />
           </div>
         </div>
 
         <div className="right-nav">
-          <SocialLinks />
+          <SocialIcons />
         </div>
 
         <div className="menu-btn">

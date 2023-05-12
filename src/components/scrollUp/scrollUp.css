@@ -19,3 +19,17 @@
   transform: translateY(-8px);
   opacity: 1;
 }
+
+.scroll-up.hide {
+  display: none;
+}
+
+.scroll-up.show {
+  display: block;
+}
+
+@media (max-width: 1368px) {
+  .scroll-up.show {
+    display: none;
+  }
+}
