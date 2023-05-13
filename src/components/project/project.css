@@ -81,8 +81,6 @@
   .card-links a {
     min-width: 80px;
     font-size: 0.875rem;
-    padding: 0.375em 0.625em;
-    background: var(--gradient-text);
   }
 
   .card-details p {
