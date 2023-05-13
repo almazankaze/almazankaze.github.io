@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
@@ -9,6 +9,18 @@ import SocialIcons from "../social-icons/SocialIcons";
 
 const Navbar = () => {
   const { setShowMenu, showMenu } = useGlobalContext();
+
+  useEffect(() => {
+    const handleScreenSizeChange = () => {
+      if (window.innerWidth > 962) setShowMenu(false);
+    };
+
+    window.addEventListener("resize", handleScreenSizeChange);
+
+    return () => {
+      window.removeEventListener("resize", handleScreenSizeChange);
+    };
+  }, []);
 
   return (
     <div className="navbar-container">

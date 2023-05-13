@@ -9,28 +9,19 @@
   gap: 2rem;
 }
 
-.header-content {
-}
-
-.header-content h1 {
+.header-statement h1 {
   font-weight: 800;
   font-size: 3.5rem;
   margin: 0.125em 0;
   color: var(--color-main);
 }
 
-.header-content p {
-  font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 28px;
-}
-
-.header-content .btn {
+.header-statement .btn {
   margin-top: 2rem;
   transition: all 0.55s ease;
 }
 
-.header-content .btn:hover {
+.header-statement .btn:hover {
   background: transparent;
   border: 1px solid var(--white);
 }
@@ -81,48 +72,53 @@
   height: 100%;
 }
 
-@media screen and (max-width: 1050px) {
-  .header {
-    flex-direction: column;
+@media screen and (max-width: 962px) {
+  .header-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
-  .header-content {
-    margin: 0 0 3rem;
+  .header-statement h1 {
+    font-size: 3.25rem;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .header-content h1 {
+  .header-statement {
     text-align: center;
-  }
-
-  .header-content p {
-    text-align: center;
-  }
-
-  .header-content .btn {
-    align-self: center;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .header-content h1 {
-    font-size: 3rem;
+@media screen and (max-width: 690px) {
+  .contact-info {
+    position: initial;
+    margin-top: 3rem;
   }
 
-  .header-content p {
-    font-size: 1.125rem;
-    line-height: 24px;
+  .contact-info ul {
+    display: block;
+  }
+
+  .contact-info ul li:first-child {
+    padding-left: 2rem;
+    border-left-width: 1px;
+  }
+
+  .contact-info ul li {
+    float: none;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 540px) {
   .header-content h1 {
     font-size: 2.5rem;
   }
+}
 
-  .header-content p {
-    font-size: 1rem;
-    line-height: 24px;
+@media screen and (max-width: 410px) {
+  .header-content h1 {
+    font-size: 2rem;
   }
 }

@@ -15,10 +15,16 @@ import { Pagination } from "swiper";
 const Carousel = () => {
   return (
     <div className="timeline">
+      <div className="my-custom-pagination-div"></div>
+
       <Swiper
         spaceBetween={20}
         pagination={{
+          el: ".my-custom-pagination-div",
           clickable: true,
+          renderBullet: (index, className) => {
+            return "<span class=" + className + "></span>";
+          },
         }}
         modules={[Pagination]}
         breakpoints={{

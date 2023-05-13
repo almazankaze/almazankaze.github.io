@@ -3,15 +3,28 @@
 }
 
 .mySwiper h3 {
-  color: var(--white);
+  color: var(--color-main);
+  margin-bottom: 0.375rem;
 }
 
 .swiper-slide {
   min-height: 180px;
   padding: 0.5rem;
   overflow: hidden;
+  background: var(--color-card);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.my-custom-pagination-div {
+  margin: 1.5rem 0 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-main) !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--gradient-text) !important;
+  background: var(--color-main) !important;
 }

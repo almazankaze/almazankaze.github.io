@@ -75,7 +75,7 @@
   height: 4px;
   margin-bottom: 2rem;
   border-radius: 10px;
-  background: var(--gradient-text);
+  background: var(--color-main);
 }
 
 .section-desc {
@@ -107,7 +107,8 @@
 
 @media screen and (max-width: 490px) {
   .btn {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    padding: 0.375rem 0.625rem;
   }
 }
 

@@ -14,13 +14,15 @@ const Technologies = () => {
         <div>
           <h3>Front-End</h3>
           <p>
-            Experience with React.js, Bootstrap, npm, Unity(C#), and
-            Android(Java)
+            Experience with Bootstrap, SCSS, Material UI, React.js, Unity(C#),
+            and Android(Java)
           </p>
         </div>
         <div>
           <h3>Back-End</h3>
-          <p>Experience with MongoDB, Express, Node, and MySQL</p>
+          <p>
+            Experience with MongoDB, Firebase, Heroku, Express, Node, and MySQL
+          </p>
         </div>
         <div>
           <h3>UI/UX</h3>
