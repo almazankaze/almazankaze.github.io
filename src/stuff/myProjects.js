@@ -45,15 +45,6 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "Birthday Board",
-    img: Birthday,
-    projectLink: "https://main--gorgeous-granita-da9b01.netlify.app/",
-    gitLink: "https://github.com/almazankaze/BirthdayWebsite",
-    description:
-      "User can create a page for a friend's birthday. Other friends can then go on there and wish him/her a happy birthday!",
-  },
-  {
-    id: 6,
     title: "Pomodoro",
     img: Pomo,
     projectLink: "https://ja-my-pomo-app.netlify.app/",
@@ -62,12 +53,12 @@ export const myProjects = [
       "Inspired by the pomodoro technique, helps me breakup my work into chunks and complete it in a timely fashion.",
   },
   {
-    id: 7,
+    id: 6,
     title: "Ecommerce Site",
     img: WebTech,
-    projectLink: "https://ecommerce-learn-proj.netlify.app/",
-    gitLink: "https://github.com/almazankaze/techWeb",
-    description: "Simple ecommerce site that sells tech stuff.",
+    projectLink: "https://main--shimmering-paprenjak-029558.netlify.app",
+    gitLink: "https://github.com/almazankaze/gameWeb",
+    description: "Simple ecommerce site that sells game stuff.",
   },
 ];
 
