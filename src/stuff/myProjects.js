@@ -56,7 +56,7 @@ export const myProjects = [
     id: 6,
     title: "Ecommerce Site",
     img: WebTech,
-    projectLink: "https://main--shimmering-paprenjak-029558.netlify.app",
+    projectLink: "https://shimmering-1upgames.netlify.app",
     gitLink: "https://github.com/almazankaze/gameWeb",
     description: "Simple ecommerce site that sells game stuff.",
   },
